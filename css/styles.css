@@ -1,10 +1,62 @@
 body {
-    font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 15px;
+    line-height: 24px;
 }   
 
 .container {
     max-width: 1130px;
     margin: 0 auto;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0070A0;
+    color: #fff;
+    width: 139px;
+    padding: 7px 0;
+}
+
+
+.header {
+    font-family: "Inter", sans-serif;
+    
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.header__menu a {
+    padding: 25px 0;
+    color: #33383F;
+}
+
+.header__right {
+}
+
+.header__link {
+    color: #0070A0;
+    margin-right: 30px;
+}
+
+.header__btn {
 }
