@@ -110,3 +110,48 @@ body {
     gap: 60px;
     margin-bottom: 160px;
 }
+
+
+.features__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.features__item {
+    width: 355px;
+}
+
+.features__item h3 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 25px;
+    margin: 15px 0 18px 0;
+}
+
+.features__item img{
+    padding: 0 7px;
+}
+
+.features__item_1 {
+    background-color: #FAEA73;
+}
+
+.features__item_1 .wrapper{
+    padding: 25px 32px;
+}
+
+.features__item_2 {
+    background-color: #CCEFF6;
+}
+
+.features__item_2 .wrapper {
+    padding: 40px 32px;
+}
+
+.features__item_3 {
+    background-color: #F7CEDC;
+}
+
+.features__item_3 .wrapper{
+    padding: 35px 32px 25px 32px;
+}
