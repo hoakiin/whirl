@@ -155,3 +155,37 @@ body {
 .features__item_3 .wrapper{
     padding: 35px 32px 25px 32px;
 }
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title h2 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 42px;
+    line-height: 50px;
+    width: 263px;
+    margin-top: 120px;
+}
+
+.about__items {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 125px;
+    margin-top: 120px;
+}
+
+.about__item {
+    width: 215px;
+}
+
+.about__item h3 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 25px;
+    margin: 19px 0 15px 0;
+}
+
+.about__item:nth-child(2) h3 {
+    margin: 15px 0 15px 0;
+}
