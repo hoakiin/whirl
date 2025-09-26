@@ -242,3 +242,62 @@ h3 {
     margin: 20px 0 0px 0;
     padding-left: 20px;
 }
+
+
+
+.info__container {
+    padding: 0 50px;
+}
+
+.info__title {
+    margin: 130px 0 25px 0;
+}
+
+.info__desc {
+    width: 643px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.info__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.info__item:nth-child(3){
+   width: 210px;
+}
+
+.info__item:nth-child(2) {
+   width: 210px;
+}
+
+.info__item:nth-child(4) {
+   width: 205px;
+}
+
+
+.info__item:nth-child(1) h3 {
+    margin: 0px 0 18px 0;
+}
+.info__item:nth-child(2) h3 {
+    margin: 13px 0 18px 0;
+}
+.info__item:nth-child(3) h3 {
+    margin: 13px 0 16px 0;
+}
+.info__item:nth-child(4) h3 {
+    margin: 7px 0 18px 0;
+}
+
+
+.info__item:nth-child(1) p{
+   width: 200px;
+}
+
+.info__item p {
+    font-size: 14px;
+    line-height: 24px;
+}
