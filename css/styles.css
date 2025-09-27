@@ -245,10 +245,6 @@ h3 {
 
 
 
-.info__container {
-    padding: 0 50px;
-}
-
 .info__title {
     margin: 130px 0 25px 0;
 }
@@ -300,4 +296,71 @@ h3 {
 .info__item p {
     font-size: 14px;
     line-height: 24px;
+}
+
+
+.blog {
+    background-color: #f7f9fa;
+}
+
+.blog__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 0 60px 0;
+}
+
+.blog__link {
+    font-size: 17px;
+    color: #0070A0;
+    margin-right: 32px;
+}
+
+.blog__posts {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.blog__post {
+    width: 355px;
+    background-color: #fff;
+}
+
+.post__wrapper {
+    padding: 15px 23px 23px 23px;
+}
+
+.blog__post__tag {
+    font-size: 12px;
+    color: #2C90C9;
+    background-color: #E6F7FF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.blog__post__tag_1 {
+    width: 122px;
+}
+.blog__post__tag_2 {
+    width: 112px;
+}
+.blog__post__tag_3 {
+    width: 60px;
+}
+
+.blog__post__title {
+    line-height: 31px;
+}
+
+.blog__post__text {
+    width: 300px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px 0 16px 0;
+}
+
+.blog__psot__data {
+    font-size: 12px;
 }
