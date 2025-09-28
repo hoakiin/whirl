@@ -364,3 +364,44 @@ h3 {
 .blog__psot__data {
     font-size: 12px;
 }
+
+.start {
+}
+
+.start .container{
+    background-color: #E6F7FF;
+    margin: 80px auto;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.start__title {
+}
+
+.start__desc {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0 30px 0;
+    width: 480px;
+}
+
+.start__btn {
+    width: 174px;
+    padding: 9px 0;
+    margin-bottom: 17px;
+}
+
+.start__remark {
+    display: flex;
+    gap: 32px;
+}
+
+.start__remark p {
+    font-size: 12px;
+    color: #626A72;
+}
+
+.start__remark p::before {
+    content: url(../images/start-icon.svg);
+    padding: 0 3px;
+}
