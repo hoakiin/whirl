@@ -576,6 +576,10 @@ h3 {
     display: flex;
 }
 
+.footer__item form:hover button {
+    color: #0070A0;
+}
+
 .footer__item input {
     width: 100%;
     padding: 0 0 6px 15px;
@@ -584,6 +588,12 @@ h3 {
 
 .footer__item button {
     margin-left: auto;
+    color: #CECAC4;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.footer__item .arrow-large {
+    font-size: 17px; /* или любой другой размер */
 }
 
 .footer__bottom .container {
