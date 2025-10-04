@@ -218,6 +218,7 @@ h3 {
     cursor: pointer;
     color: #626A72;
     display: flex;
+    align-items: center;
 }
 
 .benefits details > summary::marker {
@@ -230,12 +231,24 @@ h3 {
     display: none;
 }
 
-.benefits details > summary::after {
-    content: url(../images/b-arrow.svg);
-    transition: transform .2s ease;
-    margin-left: 8px;
-    display: inline-block;
+.benefits .arrow {
     margin-left: auto;
+    transition: transform 0.2s ease, color 0.2s ease;
+    color: #CECAC4; 
+}
+
+.benefits details:hover .arrow {
+    color: #0070A0;
+}
+
+.benefits details[open] .arrow {
+    transform: rotate(180deg);
+    color: #0070A0;
+}
+
+.benefits details:hover {
+    border-top: 1px solid #0070A0;
+    border-bottom: 1px solid #0070A0;
 }
 
 .benefits details[open] {
@@ -244,8 +257,8 @@ h3 {
     border-bottom: 1px solid #0070A0;
 }
 
-.benefits details[open] > summary::after {
-    transform: rotate(-180deg);
+.benefits details:hover > summary {
+    color: #1F1F1F;
 }
 
 .benefits details[open] > summary {
