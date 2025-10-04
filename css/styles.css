@@ -192,6 +192,7 @@ h3 {
 
 .benefits__content {
     width: 450px;
+    padding-bottom: 80px;
 }
 
 .benefits details {
@@ -235,6 +236,12 @@ h3 {
     margin-left: 8px;
     display: inline-block;
     margin-left: auto;
+}
+
+.benefits details[open] {
+    margin-bottom: 2px;
+    border-top: 1px solid #0070A0;
+    border-bottom: 1px solid #0070A0;
 }
 
 .benefits details[open] > summary::after {
